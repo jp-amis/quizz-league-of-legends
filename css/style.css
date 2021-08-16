@@ -6,15 +6,15 @@ body
 }
 .center
 {
+    padding: 15px 5px;
     border: 2px solid;
     border-style: dashed;
     margin: 0 auto;
     background-color: white;
     justify-content: center;
     align-items: center;
-    margin-top: 20vh;
     max-width: 50vw;
-    max-height: 100vh;
+    max-height: max-content;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.74);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
@@ -37,6 +37,7 @@ body
 }
 .button
 {
+    flex:1;
     margin: auto;
     width: 90%;
     height: 60px;
@@ -59,14 +60,14 @@ body
 {
     margin:0;
     top:30%;
-    width:250px;
-    position:absolute;
-    height:200px;
+    width:200px;
+    position:block;
+    height:max-content;
     margin:auto;
+    padding-bottom: 10px;
 }
 .imagem img
 {
-
     width:100%;
     height:100%;
 }
@@ -122,19 +123,10 @@ body
     padding-left: 80px;
 }
 
-@media (max-width:1080px) {
-    .imagem
-    {
-        top: 0;
-        left: 50vw;
-        height: 120px;
-    }
-}
-@media (max-width:680px) {
+@media (max-width:700px) {
     .center
-    {
-        max-width: 100vw;
-        height: 90vh;
+    { 
+        max-width: max-content;
+        max-height: max-content;
     }
-
 }

@@ -21,7 +21,7 @@ let perguntas =
     ,
     pergunta6 = `League of Legends foi inspirado em qual dos seguintes jogos / mods?`
     ,
-    pergunta7 = `A imagem que apareceu em algum lugar da tela contém os itens: Capuz da Morte de Rabadon, Bastão das Eras, Tiamat, Hexdrinker, Pistola Laminar Hextec e uma Lâmina do Perseguidor. Verdadeiro ou falso?`
+    pergunta7 = `A imagem acima contém os itens: Capuz da Morte de Rabadon, Bastão das Eras, Tiamat, Hexdrinker, Pistola Laminar Hextec e uma Lâmina do Perseguidor. Verdadeiro ou falso?`
     ,
     pergunta8 = `Annie e Tibbers ganharam uma homenagem da Riot Games. Qual foi essa homenagem?`
     ,
@@ -116,8 +116,7 @@ let respostas =
     ,
     resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">Eles estrelam uma série de quadrinhos`
     ,
-    resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">
-    Um de seus funcionários nomeou seus filhos homenageando os dois`
+    resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Um de seus funcionários nomeou seus filhos homenageando os dois`
     ,
     resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">A dupla está escondida em toda a comunicação da empresa`
     ],
@@ -173,8 +172,7 @@ let respostas =
     [
     resposta1 = `<input class='opcao1' type="radio" name="input" id="input">Cada um tem o nome de um funcionário da Riot.`
     ,
-    resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">
-    Todos eles foram desativados em algum momento durante o LCS de 2016.`
+    resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">Todos eles foram desativados em algum momento durante o LCS de 2016.`
     ,
     resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Todos eles possuem habilidades que aumentam a velocidade de movimento.`
     ,
@@ -188,8 +186,7 @@ let respostas =
     ,
     resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Salvador de Piltover`
     ,
-    resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">
-    The Steel Shadow`
+    resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">The Steel Shadow`
     ]
 ]
 
