@@ -114,7 +114,7 @@ body
     font-weight: bolder;
     position: absolute;
     color: rgb(5, 136, 212);
-    font-size: 3.5em;
+    font-size: 3em;
     font-family:monospace;
     text-align: center;
     width: 80vw;
@@ -128,5 +128,9 @@ body
     { 
         max-width: max-content;
         max-height: max-content;
+    }
+    .nome
+    {
+        font-size: 2em;
     }
 }
