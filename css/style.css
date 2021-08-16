@@ -110,9 +110,10 @@ body
 }
 .nome
 {
+    font-weight: bolder;
     position: absolute;
     color: rgb(5, 136, 212);
-    font-size: 3em;
+    font-size: 3.5em;
     font-family:monospace;
     text-align: center;
     width: 80vw;
