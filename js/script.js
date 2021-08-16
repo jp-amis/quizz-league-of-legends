@@ -248,7 +248,7 @@ function acabou()
     {
         cor.style.color="green"
         let p = document.querySelector('#premio')
-        p.innerHTML = `<a href="images/certificate.html"><img src="images/vcfoda.jpg" alt="você é foda" style="width: 200px;"></a> </br>Parabéns, Clique na imagem para acessar seu premio!!`
+        p.innerHTML = `<a href="certificate.html"><img src="images/vcfoda.jpg" alt="você é foda" style="width: 200px;"></a> </br>Parabéns, Clique na imagem para acessar seu premio!!`
     }
     else if (score >= 5)
     {
