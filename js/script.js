@@ -15,11 +15,11 @@ let perguntas =
     pergunta3 = `"A Rosa Negra irá desabrochar novamente"</br>
     De quem é a frase acima?`
     ,
-    pergunta4 = `Qual dos campeões abaixo é associado a Zaun?`
+    pergunta4 = `Qual é o nome do dano que ignora todas as armaduras e resistência mágica em League of Legends?`
     ,
     pergunta5 = `Qual dos campeões abaixo tinha o conceito inicial de uma engenheira hextech chamada CeeCee, mas que sofreu mudanças em tudo, até no visual?`
     ,
-    pergunta6 = `Quanto de bônus no dano do Acerto Crítico é aplicado pela passiva única do Gume do Infinito?`
+    pergunta6 = `League of Legends foi inspirado em qual dos seguintes jogos / mods?`
     ,
     pergunta7 = `A imagem que apareceu em algum lugar da tela contém os itens: Capuz da Morte de Rabadon, Bastão das Eras, Tiamat, Hexdrinker, Pistola Laminar Hextec e uma Lâmina do Perseguidor. Verdadeiro ou falso?`
     ,
@@ -35,9 +35,9 @@ let perguntas =
     ,
     pergunta13 = `As armas de Jhin e Graves possuem sistema de recarregar. O tempo de recarregamento de Jhin é fixo, mas do Graves não, mas no menor ranking e sem itens, qual dos dois possui o tempo de recarregamento mais longo?`
     ,
-    pergunta14 = `Eu tenho 4.000 de ouro e compro um Coração Congelado. Com ele, eu consigo um abate e ganho o máximo de ouro. Então eu compro uma Espada G. p. C. na esperança de comprar um Gume do Infinito. Quanto de ouro preciso para terminar meu Gume?`
+    pergunta14 = `O que Volibear, Ezreal, Udyr e Zilean têm em comum?`
     ,
-    pergunta15 = `Lá em 2014, a Riot lançou um conjunto de skins Curtindo o Verão. A tela de login do evento claramente mostra um campeão que, apesar de estar na festa, misteriosamente ainda não ganhou uma skin do conjunto. Quem é?`
+    pergunta15 = `Qual é o título de Camille?`
 ]
 //respostas
 let respostas =
@@ -76,13 +76,13 @@ let respostas =
     ],
     r4 =
     [
-        resposta1 = `<input class='opcao1' type="radio" name="input" id="input">Janna`
+        resposta1 = `<input class='opcao1' type="radio" name="input" id="input">Dano Verdadeiro`
         ,
-        resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">Dr. Mundo`
+        resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">Dano prenetrante`
         ,
-        resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Singed`
+        resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Dano Absoluto`
         ,
-        resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">Zac`
+        resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">Dano Perfeito`
     ],
     r5 =
     [
@@ -96,13 +96,13 @@ let respostas =
     ],
     r6 =
     [
-        resposta1 = `<input class='opcao1' type="radio" name="input" id="input">100%`
+        resposta1 = `<input class='opcao1' type="radio" name="input" id="input">WarCraft III`
         ,
-        resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">70%`
+        resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">Dota 2`
         ,
-        resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">50%`
+        resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Defesa dos antigos`
         ,
-        resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">200%`
+        resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">Heróis de Newerth`
     ],
     r7 =
     [
@@ -171,23 +171,25 @@ let respostas =
     ],
     r14 =
     [
-    resposta1 = `<input class='opcao1' type="radio" name="input" id="input">3100`
+    resposta1 = `<input class='opcao1' type="radio" name="input" id="input">Cada um tem o nome de um funcionário da Riot.`
     ,
-    resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">2800`
+    resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">
+    Todos eles foram desativados em algum momento durante o LCS de 2016.`
     ,
-    resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">2750`
+    resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Todos eles possuem habilidades que aumentam a velocidade de movimento.`
     ,
-    resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">2700`
+    resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">Todos os quatro desprezam Urgot.`
     ],
     r15 =
     [
-    resposta1 = `<input class='opcao1' type="radio" name="input" id="input">Janna`
+    resposta1 = `<input class='opcao1' type="radio" name="input" id="input">Justicar Absoluto`
     ,
-    resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">Vi`
+    resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">The Silent Blade`
     ,
-    resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Jinx`
+    resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Salvador de Piltover`
     ,
-    resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">Yasuo`
+    resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">
+    The Steel Shadow`
     ]
 ]
 
