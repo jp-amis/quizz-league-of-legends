@@ -1,0 +1,139 @@
+body
+{
+    background-image: url(https://images8.alphacoders.com/109/1090798.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.center
+{
+    border: 2px solid;
+    border-style: dashed;
+    margin: 0 auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    max-width: 50vw;
+    max-height: 100vh;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.74);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+}
+.center h1
+{
+    font-size: 3em;
+    color: rgb(196, 142, 8);
+    text-decoration: underline;
+}
+.center p
+{
+    font-size: 2em;
+}
+.respostas
+{
+    display: none;
+    text-align: justify;
+    margin-left: 80px;
+}
+.button
+{
+    margin: auto;
+    width: 90%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.button:hover
+{
+    background-color: rgb(196, 142, 8);
+    cursor: pointer;
+}
+.button p 
+{
+    padding: 10px;
+    border: 2px solid;
+    border-style: dotted;
+}
+.imagem
+{
+    margin:0;
+    top:30%;
+    width:250px;
+    position:absolute;
+    height:200px;
+    margin:auto;
+}
+.imagem img
+{
+
+    width:100%;
+    height:100%;
+}
+#vertocode
+{
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    width: max-content;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-style: unset;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.61);
+}
+#vertocode img
+{
+    height: 40px;
+    color: white;
+}
+#vertocode img:hover
+{
+    background-color: rgb(196, 142, 8);
+    border-radius: 50%;
+}
+#certificate
+{
+    height: 90vh;
+    width: 90vw;
+    background-image:url(https://i.pinimg.com/originals/2d/51/69/2d516919166f7697c9b618c4cc5d70ec.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+#certificate img
+{
+    height: 100vh;
+    width: 100vw;
+}
+.nome
+{
+    position: absolute;
+    color: rgb(5, 136, 212);
+    font-size: 3em;
+    font-family:monospace;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+@media (max-width:1080px) {
+    .imagem
+    {
+        top: 0;
+        left: 50vw;
+        height: 120px;
+    }
+}
+@media (max-width:680px) {
+    .center
+    {
+        max-width: 100vw;
+        height: 90vh;
+    }
+
+}
