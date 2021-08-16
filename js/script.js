@@ -180,13 +180,13 @@ let respostas =
     ],
     r15 =
     [
-    resposta1 = `<input class='opcao1' type="radio" name="input" id="input">Justicar Absoluto`
+    resposta1 = `<input class='opcao1' type="radio" name="input" id="input">A Salvadora de Piltover`
     ,
-    resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">The Silent Blade`
+    resposta2 = `</br> <input class='opcao2' type="radio" name="input" id="input">A Justiceira Absoluta`
     ,
-    resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">Salvador de Piltover`
+    resposta3 = `</br><input class='opcao3' type="radio" name="input" id="input">A Lâmina Silenciosa`
     ,
-    resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">The Steel Shadow`
+    resposta4 = `</br><input class='opcao4' type="radio" name="input" id="input">A Sombra de Aço`
     ]
 ]
 
@@ -282,7 +282,7 @@ function ConferirResposta()
     {
         score++
     }
-    else if (n == 4 && segunda.checked)
+    else if (n == 4 && primeira.checked)
     {
         score++
     }
