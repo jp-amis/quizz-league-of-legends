@@ -195,10 +195,12 @@ let respostas =
 function Começar()
 {
     ConferirResposta()
+    let sco = document.querySelector('#score')
     let res = document.querySelector('.respostas')
     res.style.display='block'
     let titulo = document.querySelector('#titulo')
     titulo.innerHTML = ''
+    sco.innerHTML = `<h2 class='cor'>Score:${score}</h2>`
     if (n == respostas.length)
     {
         botao.innerHTML = `<p onclick="acabou()">Finalizar</p>`
